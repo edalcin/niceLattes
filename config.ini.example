@@ -1,0 +1,12 @@
+; Configuração do niceLattes
+; Copie este arquivo para config.ini e edite conforme necessário
+;
+; IMPORTANTE: O arquivo config.ini contém informações sensíveis (PIN)
+; e NÃO deve ser commitado para o repositório.
+
+; PIN para acesso ao painel administrativo
+; Altere para um PIN seguro de sua escolha
+admin_pin = 0000
+
+; Nome do arquivo XML do CV Lattes (deve estar na pasta raiz)
+cv_xml_file = seu-arquivo-lattes.xml

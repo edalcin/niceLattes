@@ -1,0 +1,8 @@
+# Bloqueia acesso direto aos arquivos deste diretório
+<IfModule mod_authz_core.c>
+    Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+    Order deny,allow
+    Deny from all
+</IfModule>

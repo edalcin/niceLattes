@@ -1,0 +1,17 @@
+# Arquivo de configuração com informações sensíveis
+config.ini
+
+# Arquivos de dados
+data/visibility.json
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDEs
+.idea/
+.vscode/
+*.sublime-*
